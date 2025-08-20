@@ -1,0 +1,35 @@
+# Git version control files
+.git/
+.gitignore
+
+# Docker specific files
+.dockerignore
+Dockerfile
+docker-compose.yml
+
+# Python virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE/Editor directories
+.idea/
+.vscode/
+
+# Environment variables
+.env
+.env.*
+
+# Local database files
+db.sqlite3
+db.sqlite3-journal
+
+# Test reports
+.coverage
+htmlcov/
+
